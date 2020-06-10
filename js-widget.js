@@ -1,2 +1,5 @@
-var all = document.getElementById("1");
-all.style.color = "red";
+var all = document.createElement("div");
+all.setAttribute("name","landorus");
+all.addEventListener("click",function(){
+    alert("Hello");
+})
