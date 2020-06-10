@@ -3,4 +3,4 @@ all.setAttribute("name","landorus");
 all.addEventListener("click",function(){
     alert("Hello");
 })
-body.appendChild(all);
+document.body.appendChild(all);
